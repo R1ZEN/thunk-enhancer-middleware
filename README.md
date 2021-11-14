@@ -57,7 +57,7 @@ const serviceGetPost = ({ postId }) => {
 }
 
 dispatch({
-  mutation: serviceGetPost,
+  service: serviceGetPost,
   postId: '123',
 });
 ```
